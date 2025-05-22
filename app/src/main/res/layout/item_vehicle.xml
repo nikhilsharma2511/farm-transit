@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/vehicle_card_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_vehicle"
+                android:layout_marginEnd="16dp"
+                app:tint="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/vehicleTypeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tractor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/vehicleCapacityText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Capacity: 5 tons"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_capacity"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/vehicleRateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Rate: ₹500 per ton"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_rate"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/vehicleLicensePlateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="License: PB-01-AB-1234"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/ic_license"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/bookVehicleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Book Now"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/colorPrimary" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

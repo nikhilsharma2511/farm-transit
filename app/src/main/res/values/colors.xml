@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_green">#4CAF50</color>
+    <color name="primary_dark_green">#388E3C</color>
+    <color name="accent_color">#FFC107</color>
+    <color name="background_light">#F5F5F5</color>
+    <color name="text_color_primary">#212121</color>
+    <color name="text_color_secondary">#757575</color>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="divider">#DDDDDD</color>
+    
+    <!-- Dashboard colors -->
+    <color name="dashboard_background">#F0F8FF</color>
+    <color name="card_background_1">#E8F5E9</color>
+    <color name="card_background_2">#FFF8E1</color>
+    <color name="card_background_3">#E1F5FE</color>
+    <color name="card_background_4">#F3E5F5</color>
+    <color name="tab_selected_color">#4CAF50</color>
+    <color name="tab_unselected_color">#757575</color>
+    <color name="vehicle_card_background">#E0F7FA</color>
+    <color name="booking_card_background">#FFF3E0</color>
+
+    <!-- Status colors -->
+    <color name="status_pending">#FF9800</color>
+    <color name="status_confirmed">#4CAF50</color>
+    <color name="status_completed">#2196F3</color>
+    <color name="status_cancelled">#F44336</color>
+    
+    <!-- Booking status colors -->
+    <color name="colorPending">#FF9800</color>
+    <color name="colorConfirmed">#4CAF50</color>
+    <color name="colorCompleted">#2196F3</color>
+    <color name="colorCancelled">#F44336</color>
+
+</resources>

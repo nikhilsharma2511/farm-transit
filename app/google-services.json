@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "940960519094",
+    "project_id": "simple-farm-transit-lpuca2",
+    "storage_bucket": "simple-farm-transit-lpuca2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940960519094:android:fcc42f758afe295c132717",
+        "android_client_info": {
+          "package_name": "com.example.simple_farm_transit_lpu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbhjDGc4AT-qv1MUmG1MvMN5syBirx2wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
